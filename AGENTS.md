@@ -40,6 +40,9 @@ Khung chỉ dùng thư viện chuẩn của Python. Thêm thư viện thì ghi v
 
 ## Quy ước của nhóm
 
-- Ngôn ngữ trả lời người dùng: __
+- Ngôn ngữ trả lời người dùng: tiếng Việt, trực tiếp và ngắn gọn.
+- Văn phong tài liệu nộp: viết như bản chính thức để dùng luôn; không chèn các câu giải thích thừa, cảnh báo lặp lại hoặc lời biện hộ kiểu "đây chưa phải bằng chứng".
+- Khi cần nêu điểm cần kiểm tra hoặc điều kiện có thể ảnh hưởng kết quả, viết ngắn dưới dạng **Cần xem xét:** và chỉ giữ thông tin giúp người đọc ra quyết định.
+- Không tự thêm các tuyên bố quá thận trọng vào Canvas, spec, evidence, slide hoặc báo cáo nếu không phục vụ tiêu chí chấm hay quyết định sản phẩm.
 - Phong cách code / đặt tên: __
 - Ai duyệt thay đổi do agent tạo trước khi commit: __

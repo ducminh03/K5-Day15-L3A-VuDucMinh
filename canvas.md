@@ -1,4 +1,4 @@
-# Canvas — [tên nhóm] · Track [A–F]
+# Canvas — Vũ Đức Minh · Track C
 
 > Điền ở guide bước 1.4. CP1 17:00 Thứ Sáu 27/11: nộp bản đầu, đủ 7 dòng (dòng 4 được ghi giả thuyết + nguồn sẽ kiểm).
 > CP2 19:30 Thứ Sáu 27/11: cập nhật (số bằng chứng đầu, lát cắt đã chốt) và điền dòng "Đã đổi gì so với CP1".
@@ -6,11 +6,12 @@
 
 | # | Dòng | Nhóm điền |
 |---|---|---|
-| 1 | Track + lát cắt dự kiến | |
-| 2 | Người dùng chính (một vai cụ thể — không phải "học viên nói chung") | |
-| 3 | Pain một câu: ai — đang làm gì — vướng đâu — hậu quả | |
-| 4 | Bằng chứng đầu — CP1: giả thuyết + nguồn sẽ kiểm · CP2: số đầu tiên + 1 trích dẫn | |
-| 5 | **Lát cắt MỘT CÂU** (1 người dùng · 1 việc · 1 quyết định AI · 1 kết quả) | |
-| 6 | AI tự làm đến đâu + 1 dòng lý do: sai thì ai chịu gì | |
-| 7 | Phân công có tên | |
-| — | *(CP2)* Đã đổi gì so với CP1 | |
+| 1 | Track + lát cắt dự kiến | Track C — trợ lý kiểm tra điều kiện visa cho lịch trình du lịch ngắn ngày qua 2–3 nước trong phạm vi MVP: Nhật, Thái Lan, Trung Quốc đại lục, Hàn Quốc, Hong Kong, Singapore, Đài Loan, Malaysia, Indonesia và Philippines. |
+| 2 | Người dùng chính (một vai cụ thể — không phải "học viên nói chung") | Người Việt dùng hộ chiếu phổ thông, tự đặt chuyến đi quốc tế ngắn ngày và có thể đi qua điểm transit. |
+| 3 | Pain một câu: ai — đang làm gì — vướng đâu — hậu quả | Người Việt đang kiểm tra một lịch trình nhiều nước không biết mỗi chặng cần miễn visa, visa trước chuyến đi, visa tại cửa khẩu hay điều kiện transit đặc biệt nào; họ phải đối chiếu nhiều nguồn và có thể tốn tiền/lỡ chuyến nếu hiểu sai. |
+| 4 | Bằng chứng đầu — CP1: giả thuyết + nguồn sẽ kiểm | Giả thuyết ở `evidence/hypothesis.md`. Nguồn phạm vi: khảo sát Visa ghi nhận Nhật 18%, Thái Lan 12%, Trung Quốc đại lục 10%, Hàn Quốc 9%, Hong Kong 7% trong các điểm đến được khách Việt ghé thăm[^1]. Các nguồn xu hướng khác sẽ được dùng để cân nhắc Singapore, Đài Loan, Malaysia, Indonesia và Philippines. |
+| 5 | **Lát cắt MỘT CÂU** (1 người dùng · 1 việc · 1 quyết định AI · 1 kết quả) | **Người dùng:** Tôi là người Việt đang lên một lịch trình du lịch ngắn ngày di chuyển giữa các nước.<br><br>**Việc:** Tôi cung cấp lịch trình đi nước A bao lâu, sau đó sang nước B bao lâu, rồi sang nước C bao lâu và về nước, cùng với hoàn cảnh cá nhân như đã từng đi những nước nào.<br><br>**Quyết định AI:** Tôi muốn tìm hiểu nhanh chóng liệu tôi có được miễn visa, hay phải xin visa ở đâu (visa trước khi đi hay on-arrival), điều kiện cần thiết là gì và số tiền phải bỏ ra là bao nhiêu.<br><br>**Kết quả:** Trình tự các bước gồm: 1. giấy tờ, tiền nong,... cần chuẩn bị; 2. visa cần xin, trình tự làm; 3. đầu ra, giấy tờ cần cầm theo. Để tôi thực hiện chuẩn bị giấy tờ cần thiết và xin visa với chi phí và công sức bỏ ra thấp nhất. |
+| 6 | AI tự làm đến đâu + 1 dòng lý do: sai thì ai chịu gì | AI tổng hợp và đối chiếu dữ liệu visa đã thu thập; không tự nộp hồ sơ hoặc mua vé. AI có thể sai ở ba bước:<br><br>**1. Xin visa thiếu giấy tờ:** hồ sơ không hợp lệ hoặc bị yêu cầu bổ sung, phải đi lại nhiều lần. **Có thể khắc phục được** bằng cách bổ sung giấy tờ hoặc nộp lại hồ sơ.<br><br>**2. Visa không phù hợp với lịch trình:** thời hạn visa quá ngắn, sai số lần nhập cảnh hoặc bỏ sót điều kiện transit, khiến kết quả không như mong đợi. **Có thể khắc phục được trước chuyến đi** bằng cách đổi lịch trình hoặc xin lại; nếu phát hiện tại sân bay/cửa khẩu thì không thể khắc phục ngay.<br><br>**3. Thiếu visa:** người dùng không được lên máy bay hoặc không được nhập cảnh. **Không thể khắc phục được tại thời điểm xuất phát hoặc cửa khẩu.** |
+| 7 | Phân công có tên | Vũ Đức Minh — nghiên cứu nguồn visa, thiết kế dữ liệu và metric, code bản chạy thử, kiểm thử và slide. |
+
+[^1]: Visa, “Viet Nam gains popularity as Asia Pacific travelers prioritize familiarity, flexibility,” khảo sát/nguồn được xem ngày 27/11/2026: <https://www.visa.com.vn/en_VN/about-visa/newsroom/press-releases/vietnam-gains-popularity-as-asia-pacific-travelers-prioritize-familiarity-flexibility-visa-report.html>.
